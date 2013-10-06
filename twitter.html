@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Twitter</title>
+	<link href="./stylesheets/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheets/twitter.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		
+		<nav>
+			<div class="left-nav">
+				<ul>
+					<li class="nav-bar"><a href="/">
+							<span id="icon">
+								<i class="nav-icon home"></i>
+								<i class="nav-new"></i>
+							</span>
+							<span>Home</span>
+						</a>
+					</li>
+					<li class="nav-bar">
+						<a href="/connect">
+							<span id="icon">
+								<i class="nav-icon connect"></i>
+								<i class="nav-new"></i>
+							</span>
+							<span>Connect</span>
+						</a>
+					</li>
+					<li class="nav-bar">
+						<a href="/discover">
+							<span id="icon">
+								<i class="nav-icon discover"></i>
+								<i class="nav-new"></i>
+							</span>
+							<span>Discover</span>
+						</a>
+					</li>
+					<li class="nav-bar">
+						<a href="/me">
+							<span id="icon">
+								<i class="nav-icon me"></i>
+								<i class="nav-new"></i>
+							</span>
+							<span>Me</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="center-nav">
+					<li class="nav-icon twitterbird-etched"></li>	
+			</div>
+			<div class="right-nav">
+
+					<ul>
+						<li class="nav-bar">
+							<form method="get" action="/search" id="search">
+  								<input name="q" type="text" size="40" placeholder="Search" />
+							</form>
+						</li>
+						<li class="nav-bar">
+							<span id="icon">
+								<i class="nav-icon discover"></i>
+								<i class="nav-new"></i>
+							</span>
+						</li>
+
+						<li class="nav-bar">
+							<span id="icon">
+								<i class="nav-icon discover"></i>
+								<i class="nav-new"></i>
+							</span>
+						</li>
+					</ul>
+			</div>
+		</nav>	
+	</header>
+
+
+	<div class="main-page">
+		<div class="colleft">
+			<div class="left-bar">
+					<div id="profile-section" class="left-boxes">
+					 	<div id="profile">
+
+						</div>
+						<div id="tweet_counts">
+							<ul>
+								<li>
+									<span class="count">53</span><br>
+									<span class="count_type">TWEETS</span>
+								</li>
+								<li>
+									<span class="count">73</span><br>
+									<span class="count_type">FOLLOWING</span>
+								</li>
+								<li>
+									<span class="count">13</span><br>
+									<span class="count_type">FOLLOWERS</span>
+								</li>
+							</ul>
+						</div>	
+
+						<div id="compose_tweet">
+							<form method="get" action="/compose" id="compose_tweet">
+		  							<input name="q" type="text" size="40" placeholder="Compose new Tweet..." />
+							</form>
+						</div>
+					</div>
+
+					<div id="who_to_follow" class="left-boxes">
+						<div class="left-container">
+							<div id="who_refresh">
+								<span>Who to follow</span>
+								<a href="/" class="follow_links"> Refresh</a>
+								<a href="/" class="follow_links"> View all</a>
+							</div>
+							<div id="who_people">
+
+							</div>
+							<div id="popular_accounts">
+								<a href="/" class="follow_links">Popular accounts</a>
+								<a href="/" class="follow_links"> Find friends</a>
+							</div>
+						</div>
+					</div>
+
+					<div id="trends" class="left-boxes">
+						<div class="left-container">
+							<h3>Trends</h3>
+							<span>
+								<a href="/" class="follow_links"> Change</a>
+							</span>
+							<ul id="trendlinks">
+								<li>
+									<a href="/" class="trend_link">Premier League</a>
+								</li>
+								<li>
+									<a href="/" class="trend_link">#LFC</a>
+								</li>
+								<li>	
+									<a href="/" class="trend_link">NHS</a>
+								</li>
+								<li>
+									<a href="/" class="trend_link">Mail</a>
+								</li>
+								<li>
+									<a href="/" class="trend_link">London</a>
+								</li>
+								<li>
+									<a href="/" class="trend_link">Programming</a>
+								</li>
+								<li>
+									<a href="/" class="trend_link">Programming</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div id="copyright" class="left-boxes">
+						<ul>
+							<li>
+								<a href="/" class="footer-link"> © 2013 Twitter</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">About</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Help</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Terms</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Privacy</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Blog</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Status</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Apps</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Resources</a>
+							</li>
+							<li>
+								<a href="/" class="footer-link">Jobs</a>
+							</li>	
+							<li>
+								<a href="/" class="footer-link">Ads</a>
+							</li>	
+							<li>
+								<a href="/" class="footer-link">Advertisers</a>
+							</li>	
+							<li>
+								<a href="/" class="footer-link">Businesses</a>
+							</li>	
+							<li>
+								<a href="/" class="footer-link">Media</a>
+							</li>	
+							<li>
+								<a href="/" class="footer-link">Developers</a>
+							</li>
+						</ul>
+					</div>
+
+
+
+				</div>
+
+			<div class="tweets">
+				
+				<div id="tweet_head">
+					<h2>Tweets</h2>
+				</div>
+				
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/economist.jpeg">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">The Economist</span>
+								<span class="user_name">@economist</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>I like to write lots of things in this text. Sometimes more than 140 characters. If i was allowed.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/medium.jpeg">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Medium</span>
+								<span class="user_name">@medium</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>Bah de dum. You should read all my articles it is the best thing.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/dani.png">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Dani</span>
+								<span class="user_name">@dani</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>I am an Australian. I am an athlete. I am a writer. I am an accountant. I am a personal trainer. I am a coder. I am girlfriend. I am a cook.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/collingwood.png">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Collingwood FC</span>
+								<span class="user_name">@collingwoodfc</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>We had another unsuccessful season. Sorry. Maybe we should play a sport other countries play.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/gazella.png">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Run Gazella</span>
+								<span class="user_name">@rungazella</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>Not sure if we are open for business. Check the website which hasn't been updated.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/makers.png">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Makers</span>
+								<span class="user_name">@makersacademy</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>You should learn to code. It is a good idea.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/techcrunch.jpeg">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Tech Crunch</span>
+								<span class="user_name">@techcrunch</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>New app announced that will remove the need for government.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/economist.jpeg">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">The Economist</span>
+								<span class="user_name">@economist</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>I like to write lots of things in this text. Sometimes more than 140 characters. If i was allowed.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/dani.png">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">Dani</span>
+								<span class="user_name">@dani</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>I need a nap. And some sunshine.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="tweet_container">
+					<div class="tweetblock cf">
+						<div id="tweet_pic">
+							<a href ="/">
+								<img src="images/economist.jpeg">
+							</a>
+						</div>
+						<div id="tweet_content">
+							<div id="tweet_username">
+								<span class="full_name">The Economist</span>
+								<span class="user_name">@economist</span>
+							</div>
+
+							<div id="tweet_text">
+								<p>I like to write lots of things in this text. Sometimes more than 140 characters. If i was allowed.</p>
+							</div>
+
+							<div id="tweet_summary">
+								<a href="/">View summary</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
